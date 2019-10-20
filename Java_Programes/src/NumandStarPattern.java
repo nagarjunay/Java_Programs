@@ -34,6 +34,15 @@ public class NumandStarPattern {
 				System.out.print(j+" ");
 			}
 		}
+		System.out.println("");
+		System.out.print("**********************************");
+		
+		for(int i=1; i<=row; i++) {
+			System.out.println("");
+			for(int j=1; j<=i; j++) 
+				System.out.print("*");
+			
+		}
 		
 	}
 
